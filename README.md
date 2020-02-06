@@ -4,8 +4,12 @@ You can use the [editor on GitHub](https://github.com/Lorp/website/edit/master/R
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+## Typefaces
+
 <ul>
-  {% for post in site.posts %}
+  
+  
+  {% for post in site.categories.typeface %}
     <li>
       <h2><a href="website{{ post.url }}">{{ post.title }}</a></h2>
       <p>{{ post.excerpt }}</p>
